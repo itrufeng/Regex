@@ -86,7 +86,7 @@ public struct RegexOptions : OptionSet {
         /**
          * Internal implementation that can't be hidden. Skip it.
          */
-        typealias MatchingOptions = NSMatchingOptions
+        typealias MatchingOptions = NSRegularExpression.MatchingOptions
     }
 #endif
 

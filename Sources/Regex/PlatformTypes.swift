@@ -24,7 +24,7 @@ import Foundation
     typealias GroupRange = NSRange
 #else
     typealias CompiledPattern = NSRegularExpression
-    typealias CompiledMatchContext = [TextCheckingResult]
-    typealias CompiledPatternMatch = TextCheckingResult
+    typealias CompiledMatchContext = [NSTextCheckingResult]
+    typealias CompiledPatternMatch = NSTextCheckingResult
     typealias GroupRange = NSRange
 #endif
